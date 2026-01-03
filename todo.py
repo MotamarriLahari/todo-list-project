@@ -1,9 +1,6 @@
-tasks = []
+def view_tasks(tasks):
+    for t in tasks:
+        print(t)
 
-def add_task(task):
-    tasks.append(task)
-    print("Task added:", task)
-
-print("Add Task Feature Ready now")
 
 
