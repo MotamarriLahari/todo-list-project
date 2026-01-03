@@ -1,4 +1,4 @@
-tasks=None
+tasks=[]
 def view_tasks(tasks):
     for t in tasks:
         print(t)
